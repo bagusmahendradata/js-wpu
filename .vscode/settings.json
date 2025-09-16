@@ -1,4 +1,5 @@
 {
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "Noctis Viola"
+    "workbench.colorTheme": "Noctis Azureus",
+    "livePreview.defaultPreviewPath": "/index.html"
 }

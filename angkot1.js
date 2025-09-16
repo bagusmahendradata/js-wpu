@@ -1,6 +1,13 @@
-let angkot = 1;
+let noAngkot = 1;
+let jmlAngkot = 10;
+let angkotBeroprasi = 6;
 
-while(angkot <=10){
-    console.log(`Angkot No. ${angkot} beroprasi dengan baik`);
-    angkot++
-};
+for(noAngkot; noAngkot<=jmlAngkot; noAngkot++){
+    if(noAngkot <= angkotBeroprasi && noAngkot !==5){
+        console.log(`Angkot No. ${noAngkot} sedang beroprasi`)
+    }else if(noAngkot === 5 || noAngkot===8 || noAngkot === 10){
+        console.log(`Angkot No. ${noAngkot} sedang lembur`)
+    }else{
+        console.log(`Angkot No. ${noAngkot} sedang tidak beroprasi`)
+    }
+}
